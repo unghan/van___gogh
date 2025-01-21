@@ -27,7 +27,7 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('background.jpg') no-repeat center center; /* 배경 이미지 */
+    background: url('back.png') no-repeat center center; /* 배경 이미지 */
     background-size: cover;
     z-index: 1;
 }
@@ -43,20 +43,6 @@ body, html {
     z-index: 2;
 }
 
-/* 램프 조명 */
-.lamp {
-    position: absolute;
-    top: 18%; /* 램프 위치 */
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: url('lamp.png') no-repeat center center; /* 램프 이미지 */
-    background-size: contain; /* 원본 크기 유지 */
-    width: auto;
-    height: auto;
-    max-width: 200px; /* 램프 이미지 크기 조정 */
-    z-index: 4; /* 조명이 다른 요소 위에 표시되도록 */
-    animation: flicker 2.5s infinite; /* 조명 깜빡임 */
-}
 
 /* 동그란 빛 방사 효과 */
 .light-circle {
