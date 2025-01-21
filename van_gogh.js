@@ -23,7 +23,7 @@ imageContainer.addEventListener('click', (e) => {
 
 // 네 번째 이미지 상태에서만 커서 변경
 fourthImage.addEventListener('mouseenter', () => {
-    cursor.style.background = "url('ear.png') no-repeat center center"; // 커서를 ear.png로 변경
+    cursor.style.background = "url('eary.png') no-repeat center center"; // 커서를 eary.png로 변경
     cursor.style.backgroundSize = "150px 150px"; // 커서 크기 설정
 });
 

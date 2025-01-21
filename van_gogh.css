@@ -103,6 +103,6 @@ body {
 
 /* 네 번째 상태에서 커서 변경 */
 .image-container.fourth:hover #custom-cursor {
-    background: url('ear.png') no-repeat center center; /* 네 번째 이미지에서 커서를 ear.png로 변경 */
+    background: url('eary.png') no-repeat center center; /* 네 번째 이미지에서 커서를 eary.png로 변경 */
     background-size: 150px 150px; /* 커서 크기를 150px로 설정 */
 }
